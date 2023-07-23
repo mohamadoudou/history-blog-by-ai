@@ -4,7 +4,6 @@ import { postsQuery } from "@/sanity/lib/queries";
 
 export default async function Home() {
   const posts = await cachedClient(postsQuery);
-  console.log("posts:", posts);
 
   return <Posts posts={posts} />;
 }

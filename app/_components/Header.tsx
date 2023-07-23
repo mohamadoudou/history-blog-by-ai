@@ -51,7 +51,7 @@ function Header() {
       <div>
         {/* <DarkModeButton></DarkModeButton> */}
         <h2 className="bg-black px-4 py-1 text-yellow-500 rounded-2xl">
-          <button>Sign up for daily mail</button>
+          <Link href="#id-mail">Sign up for daily mail</Link>
         </h2>
       </div>
     </header>
